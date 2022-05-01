@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8"/>
+<meta name="publisher" content="blankdots.com"/>
+<meta name="author" content="Stefan Negru"/>
+<meta name="keywords" content="personas, template" />
+<meta name="description" content="Personas Template with microdata" />
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Personas Template</title>
+</head>
+
+<body>
+<header>
+	<h1>Personas Template</h1>
+	<span id="logo"><a href="http://www.w3.org/html/logo/">
+<img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="83" height="32" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
+</a></span>
+
+</header>
+<section>
+	<h1 class="hidden">Personas Section (minimum 4 personas recommended)</h1>
+    <!-- 1  -->
+	<article itemscope itemtype="http://schema.org/Person" class="persona">
+		<div class="personaInfo">
+			<h3>Type: Primary/Secondary/Negative/Supplemental/Served/Customer</h3>
+			<figure>
+				<img itemprop="image" src="https://picsum.photos/150" alt="persona image"  />
+			</figure>
+			<div class="personaBackground">				
+				<h4>Name: <span itemprop="givenName">Iulian</span> <span itemprop="familyName">Perdea</span></h4>
+					<h5>Background</h5>
+					<ul>
+						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1990-10-23">10/23/1990</time></li>
+						<li><strong>Gender:</strong> <span itemprop="gender">Male/Female</span></li>
+						<li itemprop="location" itemscope itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Iasi, Romania</span></li>
+						<li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">UAIC</span>, <span itemprop="jobTitle">Student</span></li>
+						<li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name">UAIC:Informatica</span></li>
+						<li><strong>Technology Level:</strong>High</li>
+					</ul>
+			</div>
+		</div>
+		<div class="personaDetails">
+			<div class="detailsLeft">
+				<div class="leftGroup">
+					<h5>Main Points</h5>
+					<p>Some points extracted from detailed description, that are specific for this persona and the reason we chose it. For example <strong>(phrases are recommended not just simple list of points)</strong>:
+                    I am a very good programmer and also i like to learn about new technologies</p>
+					<ul>
+						<li>Experience with certain products; I used to have a Samsung galaxy note 7 but unfortunately it exploded.</li>
+						<li>Dislikes about certain aspects;I dont like that i have to save my videos knowing it get deleted.</li>
+						<li>Disabilities relevant to our research; I cant see the smaller texts.</li>
+						<li>Working environment; I am in a decent working environment,is clean and confortable</li>
+						<li>Social connections; I am part of a hacking association named "The Metaverse".</li>
+						<li>The user's goals. My goal is to get whealthy and healthy to be able to help other people.</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Goals</h5>
+					<p>Goals are the reasons users perform tasks, not the tasks.</p>
+					<ul>
+						<li>Practical Goals: Helping other people</li>
+						<li>Personal Goals: Being more healthy</li>
+						<li>Business Goals: Being more whealthy</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Frustrations and Pain Points</h5>
+					<p>Some of the difficulties the user has with the product.</p>
+					<ul>
+						<li>UI, Interaction, User Experience; the UI is plain and simple,in my opinion is all what i need.</li>
+						<li>Dislikes relevant to the research; I the format i download is not compatible with the phone.</li>
+						<li>Disabilities; I can't see the smaller texts on my phone.</li>
+						<li>Unreliability of the product; It doesnt save the videos entirely.</li>
+						<li>Difficulties in completing tasks; I dont have any</li>
+						<li>Problems with the product: slowness, hard to use, no feedback provided; I dont have any.</li>
+					</ul>
+				</div>
+			</div>
+			<div itemprop="description" class="detailsRight">
+				<h5>Detailed Description</h5>
+				<p><strong>"A persona is a user archetype you can use to help guide decisions about product features, navigation, interactions, and even visual design." (Kim Goodwin, Cooper.com)</strong></p>
+				<p>Regarding the persona type: Primary/Secondary/Negative/Supplemental/Served/Customer, these categories of personas are defined in <span itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/About-Face-Essentials-Interaction-Design/dp/0470084111/">About Face 3.0</a></span> by <span itemprop="author">Alan Cooper</span></span>.</p>
+				<p>A few personal details regarding relationship to the application domain in which we will use the personas, work life, social life, teamwork etc.</p>
+				<p><strong>This section should be structured as a story.</strong></p>
+				<p>Regarding selecting goals it is recommended to be dived into:</p>
+				<ul>
+						<li>Practical Goals like: avoid meetings, being efficient; </li>
+						<li>Personal Goals like: not feeling stupid (the product insults the user), getting an adequate amount of work done, having fun;</li>
+						<li>Business Goals like: increasing student enrollment, getting good education.</li>
+					</ul>
+				<p>List any prior experience  that is relevant to the persona  </p>
+				<ul>
+					<li>Experience with certain applications, products; I have experience on using certain apps, in my opinion an app doesnt need to be complicated and the server the purpose you need.</li>
+					<li>Frequency of use. I am using youtube frequently and i never realised that you need to save your videos that got deleted in your playlist.</li>
+				</ul>
+				<h5>References</h5>
+				<ul>
+					<li>Fluid <a href="http://wiki.fluidproject.org/display/fluid/Personas">Personas</a>;</li>
+					<li>An introduction to personas and <a href="http://www.steptwo.com.au/papers/kmc_personas">how to create them</a>;</li>
+					<li itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1" class="external-link" rel="nofollow">The Persona Lifecycle, Keeping People in Mind Throughout Product Design</a></span>, <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;</li>
+					<li>This version of Personas Template includes microdata markup using <a href="schema.org/">schema.org Schemas</a>.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="personaScenarios">
+			<h5>Scenarios</h5>
+			<p>Develop and list a few scenarios in which your product is used (when, how and with whom it is used) by this persona. In developing these scenarios consider the Main points, Goals and Frustrations &amp; Pain Points. Describe the scenario in a few phrases and also establish a few end points. Images could be used to describe the scenarios. </p>
+            <p> I was navigating on Youtube to listen my music from my playlist and most of them got deleted.
+                And now i need something to save my playlist from getting deleted.
+                Is frustrating to save my entire playlist having over 2k songs just to find what i need.
+            </p>
+        </div>
+		<div class="otherDetails">
+			<h5>Other Details</h5>
+			<p>Other details regarding this persona.
+                I'm very careful on what i need .
+            </p>
+		</div>
+	</article>
+    <!-- 2 -->
+	<article itemscope itemtype="http://schema.org/Person" class="persona">
+		<div class="personaInfo">
+			<h3>Type: Primary/Secondary/Negative/Supplemental/Served/Customer</h3>
+			<figure>
+				<img  itemprop="image" src="https://picsum.photos/150" alt="persona image"  />
+			</figure>
+			<div class="personaBackground">				
+				<h4>Name: <span itemprop="givenName">George</span> <span itemprop="familyName">Fedora</span></h4>
+					<h5>Background</h5>
+					<ul>
+						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1990-10-23">10/25/1996</time></li>
+						<li><strong>Gender:</strong> <span itemprop="gender">Male</span></li>
+						<li itemprop="location" itemscope itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Iasi, Romania</span></li>
+						<li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">Digi RCS RDS</span>, <span itemprop="jobTitle">Electrician</span></li>
+						<li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name">Liceul Teoretic Miron Costin</span></li>
+						<li><strong>Technology Level:</strong> Medium</li>
+					</ul>
+			</div>
+		</div>
+		<div class="personaDetails">
+			<div class="detailsLeft">
+				<div class="leftGroup">
+					<h5>Main Points</h5>
+					<p>Some points extracted from detailed description, that are specific for this persona and the reason we chose it. For example <strong>(phrases are recommended not just simple list of points)</strong>:</p>
+					<ul>
+						<li>Experience with certain products; I have experiecend with similar apps like google drive.</li>
+						<li>Dislikes about certain aspects; Low storage high cost.</li>
+						<li>Disabilities relevant to our research; I dont use youtube very often.</li>
+						<li>Working environment; Is decent</li>
+						<li>Social connections; My boss and my team are very friendly.</li>
+						<li>The user's goals. Getting higher salary.</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Goals</h5>
+					<p>Goals are the reasons users perform tasks, not the tasks.</p>
+					<ul>
+						<li>Practical Goals: Getting more organized with time.</li>
+						<li>Personal Goals: Feeling good on what im doing, either about job or life</li>
+						<li>Business Goals: Getting a raise</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Frustrations and Pain Points</h5>
+					<p>Some of the difficulties the user has with the product.</p>
+					<ul>
+						<li>UI, Interaction, User Experience; I used the app and was easy to use all i had to do is to connect my account and i had over 10 videos recovered from my playlist.</li>
+						<li>Dislikes relevant to the research; Wish i could download the videos that got deleted.</li>
+						<li>Disabilities; Cannot download the videos</li>
+						<li>Unreliability of the product; The videos that got deleted in the past could not get recovered.</li>
+						<li>Difficulties in completing tasks; Not any.</li>
+						<li>Problems with the product: slowness, hard to use, no feedback provided; Not any.</li>
+					</ul>
+				</div>
+			</div>
+			<div itemprop="description" class="detailsRight">
+				<h5>Detailed Description</h5>
+				<p><strong>"A persona is a user archetype you can use to help guide decisions about product features, navigation, interactions, and even visual design." (Kim Goodwin, Cooper.com)</strong></p>
+				<p>Regarding the persona type: Primary/Secondary/Negative/Supplemental/Served/Customer, these categories of personas are defined in <span itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/About-Face-Essentials-Interaction-Design/dp/0470084111/">About Face 3.0</a></span> by <span itemprop="author">Alan Cooper</span></span>.</p>
+				<p>A few personal details regarding relationship to the application domain in which we will use the personas, work life, social life, teamwork etc.</p>
+				<p><strong>This section should be structured as a story.</strong></p>
+				<p>Regarding selecting goals it is recommended to be dived into:</p>
+				<ul>
+						<li>Practical Goals like: avoid meetings, being efficient;</li>
+						<li>Personal Goals like: not feeling stupid (the product insults the user), getting an adequate amount of work done, having fun;</li>
+						<li>Business Goals like: increasing student enrollment, getting good education.</li>
+					</ul>
+				<p>List any prior experience  that is relevant to the persona  </p>
+				<ul>
+					<li>Experience with certain applications, products;</li>
+					<li>Frequency of use.</li>
+				</ul>
+				<h5>References</h5>
+				<ul>
+					<li>Fluid <a href="http://wiki.fluidproject.org/display/fluid/Personas">Personas</a>;</li>
+					<li>An introduction to personas and <a href="http://www.steptwo.com.au/papers/kmc_personas">how to create them</a>;</li>
+					<li itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1" class="external-link" rel="nofollow">The Persona Lifecycle, Keeping People in Mind Throughout Product Design</a></span>, <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;</li>
+					<li>This version of Personas Template includes microdata markup using <a href="schema.org/">schema.org Schemas</a>.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="personaScenarios">
+			<h5>Scenarios</h5>
+			<p>Develop and list a few scenarios in which your product is used (when, how and with whom it is used) by this persona. In developing these scenarios consider the Main points, Goals and Frustrations &amp; Pain Points. Describe the scenario in a few phrases and also establish a few end points. Images could be used to describe the scenarios. </p>
+			<p>Develop and list a few scenarios in which your product is used (when, how and with whom it is used) by this persona. In developing these scenarios consider the Main points, Goals and Frustrations &amp; Pain Points. Describe the scenario in a few phrases and also establish a few end points. Images could be used to describe the scenarios. </p>
+            <p>I had comeback from my job and stared to listen some music from my playlist but there was missing some melodies i used to listen in the past.
+                Happly i discovered this web app that saved the playlist in my account.I really found it some of them by title.
+                Wish i could've discovered this app earlier.
+            </p>
+            <p>
+                I was navigatiing on the internet and i decided to watch some videos in my playlist.
+                I noticed that some videos are missing but there is not title.
+                I sent an email to google support but no result. Even if i had the link.
+                I decided to search an app that save the playlist. That saved my life cuz i dont need to download everything i want due the lack of space on my phone and my pc.
+
+            </p>
+		</div>
+		<div class="otherDetails">
+			<h5>Other Details</h5>
+			<p>I'm working almost everyday and i dont have much freetime.</p>
+		</div>
+	</article>
+    <!-- 3 -->
+	<article itemscope itemtype="http://schema.org/Person" class="persona">
+		<div class="personaInfo">
+			<h3>Type: Primary/Secondary/Negative/Supplemental/Served/Customer</h3>
+			<figure>
+				<img  itemprop="image" src="https://picsum.photos/150" alt="persona image"  />
+			</figure>
+			<div class="personaBackground">				
+				<h4>Name: <span itemprop="givenName">Victor</span> <span itemprop="familyName">Marcel</span></h4>
+					<h5>Background</h5>
+					<ul>
+						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1990-10-23">10/25/1994</time></li>
+						<li><strong>Gender:</strong> <span itemprop="gender">Male</span></li>
+						<li itemprop="location" itemscope itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Iasi, Romania</span></li>
+						<li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">MC Donalds</span>, <span itemprop="jobTitle">Waiter</span></li>
+						<li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name">Liceul Teoretic Miron Costin</span></li>
+						<li><strong>Technology Level:</strong> Medium</li>
+					</ul>
+			</div>
+		</div>
+		<div class="personaDetails">
+			<div class="detailsLeft">
+				<div class="leftGroup">
+					<h5>Main Points</h5>
+					<p>Some points extracted from detailed description, that are specific for this persona and the reason we chose it. For example <strong>(phrases are recommended not just simple list of points)</strong>:</p>
+					<ul>
+						<li>Experience with certain products; I have experiecend with similar apps like Dropbox</li>
+						<li>Dislikes about certain aspects; Low storage high cost.</li>
+						<li>Disabilities relevant to our research; I cannot tell much im not good with tech</li>
+						<li>Working environment; Is decent</li>
+						<li>Social connections; My boss and my team are very friendly.</li>
+						<li>The user's goals. Getting higher salary.</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Goals</h5>
+					<p>Goals are the reasons users perform tasks, not the tasks.</p>
+					<ul>
+						<li>Practical Goals: Getting more organized with time.</li>
+						<li>Personal Goals: Feeling good on what im doing, either about job or life</li>
+						<li>Business Goals: Getting a raise</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Frustrations and Pain Points</h5>
+					<p>Some of the difficulties the user has with the product.</p>
+					<ul>
+						<li>UI, Interaction, User Experience; I used the app and was easy to use all i had to do is to connect my account and i had over 10 videos recovered from my playlist.</li>
+						<li>Dislikes relevant to the research; Wish i could download the videos that got deleted.</li>
+						<li>Disabilities; Cannot download the videos</li>
+						<li>Unreliability of the product; The videos that got deleted in the past could not get recovered.</li>
+						<li>Difficulties in completing tasks; Not any.</li>
+						<li>Problems with the product: slowness, hard to use, no feedback provided; Not any.</li>
+					</ul>
+				</div>
+			</div>
+			<div itemprop="description" class="detailsRight">
+				<h5>Detailed Description</h5>
+				<p><strong>"A persona is a user archetype you can use to help guide decisions about product features, navigation, interactions, and even visual design." (Kim Goodwin, Cooper.com)</strong></p>
+				<p>Regarding the persona type: Primary/Secondary/Negative/Supplemental/Served/Customer, these categories of personas are defined in <span itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/About-Face-Essentials-Interaction-Design/dp/0470084111/">About Face 3.0</a></span> by <span itemprop="author">Alan Cooper</span></span>.</p>
+				<p>A few personal details regarding relationship to the application domain in which we will use the personas, work life, social life, teamwork etc.</p>
+				<p><strong>This section should be structured as a story.</strong></p>
+				<p>Regarding selecting goals it is recommended to be dived into:</p>
+				<ul>
+						<li>Practical Goals like: avoid meetings, being efficient;</li>
+						<li>Personal Goals like: not feeling stupid (the product insults the user), getting an adequate amount of work done, having fun;</li>
+						<li>Business Goals like: increasing student enrollment, getting good education.</li>
+					</ul>
+				<p>List any prior experience  that is relevant to the persona  </p>
+				<ul>
+					<li>Experience with certain applications, products;</li>
+					<li>Frequency of use.</li>
+				</ul>
+				<h5>References</h5>
+				<ul>
+					<li>Fluid <a href="http://wiki.fluidproject.org/display/fluid/Personas">Personas</a>;</li>
+					<li>An introduction to personas and <a href="http://www.steptwo.com.au/papers/kmc_personas">how to create them</a>;</li>
+					<li itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1" class="external-link" rel="nofollow">The Persona Lifecycle, Keeping People in Mind Throughout Product Design</a></span>, <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;</li>
+					<li>This version of Personas Template includes microdata markup using <a href="schema.org/">schema.org Schemas</a>.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="personaScenarios">
+			<h5>Scenarios</h5>
+
+            <p>I was back to home to enjoy my time on youtube, I saved severaly music videos in my playlist. I noticed some of them got privated or deleted.  </p>
+            <p> I asked a friend if i can find them somewhere. My friend recommended to use Wayback machine website but it took to much and didn have much result since im not good with this kind of stuff.
+                Then a asked another friend and showed me this app.He said that he had the same problem and this app was what he is looking for.
+                I tryed this app too, the setup was pretty easy only connecting with my gmail account and way to go. In next day i recieve some emails and showed my the title of the deleted videos.
+                All i have to do is to find similar videos on yotube problem solved.
+            </p>
+		</div>
+		<div class="otherDetails">
+			<h5>Other Details</h5>
+			<p>I'm working almost everyday and i dont have much freetime.</p>
+		</div>
+	</article>
+    <!-- 4 -->
+    <article itemscope itemtype="http://schema.org/Person" class="persona">
+		<div class="personaInfo">
+			<h3>Type: Primary/Secondary/Negative/Supplemental/Served/Customer</h3>
+			<figure>
+				<img  itemprop="image" src="https://picsum.photos/150" alt="persona image"  />
+			</figure>
+			<div class="personaBackground">				
+				<h4>Name: <span itemprop="givenName">Georgiana</span> <span itemprop="familyName">Bossman</span></h4>
+					<h5>Background</h5>
+					<ul>
+						<li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1990-10-23">10/25/1996</time></li>
+						<li><strong>Gender:</strong> <span itemprop="gender">Male</span></li>
+						<li itemprop="location" itemscope itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">Iasi, Romania</span></li>
+						<li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">Catena Farmacia Inimii </span>, <span itemprop="jobTitle">Pharmacist</span></li>
+						<li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong>  <span itemprop="name">Liceul Tehnologic Ioan Coanda</span></li>
+						<li><strong>Technology Level:</strong>-</li>
+					</ul>
+			</div>
+		</div>
+		<div class="personaDetails">
+			<div class="detailsLeft">
+				<div class="leftGroup">
+					<h5>Main Points</h5>
+					<p>Some points extracted from detailed description, that are specific for this persona and the reason we chose it. For example <strong>(phrases are recommended not just simple list of points)</strong>:</p>
+					<ul>
+						<li>Experience with certain products; I never experiecend something like this before</li>
+						<li>Dislikes about certain aspects; I dont have any.</li>
+						<li>Disabilities relevant to our research; I dont use youtube very often.</li>
+						<li>Working environment; Is decent</li>
+						<li>Social connections; My boss and my team are very friendly.</li>
+						<li>The user's goals. Getting higer salary.</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Goals</h5>
+					<p>Goals are the reasons users perform tasks, not the tasks.</p>
+					<ul>
+						<li>Practical Goals: Getting more organized with time.</li>
+						<li>Personal Goals: Feeling good on what im doing, either about job or life</li>
+						<li>Business Goals: Getting a raise</li>
+					</ul>
+				</div>
+				<div class="leftGroup">
+					<h5>Frustrations and Pain Points</h5>
+					<p>Some of the difficulties the user has with the product.</p>
+					<ul>
+						<li>UI, Interaction, User Experience; I used the app and was easy to use</li>
+						<li>Dislikes relevant to the research; Wish i could download the videos that got deleted.</li>
+						<li>Disabilities; Cannot download the videos</li>
+						<li>Unreliability of the product; The videos that got deleted in the past could not get recovered.</li>
+						<li>Difficulties in completing tasks; Not any.</li>
+						<li>Problems with the product: slowness, hard to use, no feedback provided; Not any.</li>
+					</ul>
+				</div>
+			</div>
+			<div itemprop="description" class="detailsRight">
+				<h5>Detailed Description</h5>
+				<p><strong>"A persona is a user archetype you can use to help guide decisions about product features, navigation, interactions, and even visual design." (Kim Goodwin, Cooper.com)</strong></p>
+				<p>Regarding the persona type: Primary/Secondary/Negative/Supplemental/Served/Customer, these categories of personas are defined in <span itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/About-Face-Essentials-Interaction-Design/dp/0470084111/">About Face 3.0</a></span> by <span itemprop="author">Alan Cooper</span></span>.</p>
+				<p>A few personal details regarding relationship to the application domain in which we will use the personas, work life, social life, teamwork etc.</p>
+				<p><strong>This section should be structured as a story.</strong></p>
+				<p>Regarding selecting goals it is recommended to be dived into:</p>
+				<ul>
+						<li>Practical Goals like: avoid meetings, being efficient;</li>
+						<li>Personal Goals like: not feeling stupid (the product insults the user), getting an adequate amount of work done, having fun;</li>
+						<li>Business Goals like: increasing student enrollment, getting good education.</li>
+					</ul>
+				<p>List any prior experience  that is relevant to the persona  </p>
+				<ul>
+					<li>Experience with certain applications, products;</li>
+					<li>Frequency of use.</li>
+				</ul>
+				<h5>References</h5>
+				<ul>
+					<li>Fluid <a href="http://wiki.fluidproject.org/display/fluid/Personas">Personas</a>;</li>
+					<li>An introduction to personas and <a href="http://www.steptwo.com.au/papers/kmc_personas">how to create them</a>;</li>
+					<li itemscope itemtype="http://schema.org/Book"><span itemprop="name"><a href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1" class="external-link" rel="nofollow">The Persona Lifecycle, Keeping People in Mind Throughout Product Design</a></span>, <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;</li>
+					<li>This version of Personas Template includes microdata markup using <a href="schema.org/">schema.org Schemas</a>.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="personaScenarios">
+			<h5>Scenarios</h5>
+			<p>Develop and list a few scenarios in which your product is used (when, how and with whom it is used) by this persona. In developing these scenarios consider the Main points, Goals and Frustrations &amp; Pain Points. Describe the scenario in a few phrases and also establish a few end points. Images could be used to describe the scenarios. </p>
+            <p> I was a weekend and i had spare time on the internet. I used to save some old music on my playlist and i noticed that some got private or the channel was deleted as well with the videos.
+                I talked with my husband and he recommended this app and it was almost what im looking for.
+                Wish it could found the deleted videos in the past. I did found some with wayback machine website thanks to help from my husband.
+            </p>
+		</div>
+		<div class="otherDetails">
+			<h5>Other Details</h5>
+			<p>I'm currently working on a pharmachy and raising a child.</p>
+		</div>
+	</article>		
+</section>
+
+<footer id="footer">
+	<span id="license"><a href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a></span>
+</footer>
+</body>
+</html>
